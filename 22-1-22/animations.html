@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* The animation shorthand CSS property applies an animation between styles. 
+        It is a shorthand for animation-name, animation-duration, animation-timing-function, 
+        animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, and animation-play-state. */
+      @keyframes animation1 {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: yellow;
+        }
+      }
+      div {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+        animation-name: animation1;
+        animation-duration: 4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div>text with animated background</div>
+  </body>
+</html>
